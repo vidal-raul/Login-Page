@@ -53,12 +53,11 @@ btn.onclick = function() {
 
 //Languages
 languages.addEventListener("mouseenter", () => {
-    languages.style.width = "460px";
-    languages.style.height = "100px";
-    languages.style.fontSize = "45px";
+    languages.style.fontSize = "35px";
+    languages.style.backgroundColor = "#1a1a6d";
+    languages.style.cursor = "pointer";
 })
 languages.addEventListener("mouseleave", () => {
-    languages.style.width = "";
-    languages.style.height = "";
     languages.style.fontSize = "";
+    languages.style.backgroundColor = "";
 })
